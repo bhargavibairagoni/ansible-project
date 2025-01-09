@@ -153,8 +153,8 @@
 
 ##AWS credentials
 #
-aws_access_key: " "
-aws_secret_key: " "
+aws_access_key: ""
+aws_secret_key: ""
 title: "ARTH"
 
 # VPC configuration
@@ -197,6 +197,6 @@ port22_cidr_block: '0.0.0.0/0'
 
 # EC2 Instance configuration
 #
-image_id: "ami-033a1ebf088e56e81"
+image_id: "ami-0ca9fb66e076a6e32"
 type: "t2.micro"
-instance_name: Rabbani-ec                
+instance_name: Bhargavi-outline-ec2                
