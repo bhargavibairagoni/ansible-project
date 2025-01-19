@@ -1,5 +1,4 @@
 ### VPC Creation ####
-
 ---
 - hosts: localhost
   become: yes
@@ -14,7 +13,6 @@
       register: vpc_result
 
 #### Internet gateway Creation #######
-
     - ec2_vpc_igw:
         aws_access_key: 
         aws_secret_key: 
@@ -26,8 +24,6 @@
       register: igw_result
 
  ## create an vpc pub subnet
-
-
     - ec2_vpc_subnet:
         aws_access_key:
         aws_secret_key: 
